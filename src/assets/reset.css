@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;    
+}
+
+ul {
+  list-style: none;
+}
+
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.ant-carousel .index-arrow-left,
+.ant-carousel .index-arrow-left:hover,
+.ant-carousel .index-arrow-left:focus {
+  font-size: 30px;
+  left: 20px;
+  z-index: 2;
+  color: #4e4d53;
+}
+
+.ant-carousel .index-arrow-right,
+.ant-carousel .index-arrow-right:hover,
+.ant-carousel .index-arrow-right:focus {
+  font-size: 30px;
+  right: 30px;
+  z-index: 2;
+  color: #4e4d53;
+}
